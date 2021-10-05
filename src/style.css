@@ -1,0 +1,70 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  /* font-size: 1.5rem; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5rem;
+  max-width: 80rem;
+  height: auto;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.sedans {
+  background-color: #e28525;
+  padding: 2rem;
+}
+
+.suvs {
+  background-color: #016972;
+  padding: 2rem;
+}
+
+.luxury {
+  background-color: #00403f;
+  padding: 2rem;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  margin: 2rem;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2em;
+  margin: 2rem;
+}
+
+p {
+  margin: 2rem;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  text-align: center;
+  width: 11rem;
+  height: 3rem;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  border-radius: 25px;
+}
+
+.sedans button {
+  color: #e28525;
+}
+
+.suvs button {
+  color: #016972;
+}
+
+.luxiry button {
+  color: #00403f;
+}

@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "files.autoSave": "onFocusChange",
+    "liveServer.settings.root": "/src",
+    "liveServer.settings.multiRootWorkspaceName": "frontend-mentor-1"
+  }
+}
